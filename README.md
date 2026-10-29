@@ -125,7 +125,11 @@ git clone https://github.com/Stone-dielianhua/ComfyUI_Pose-Gallery_ZH.git
 
 ## GitHub 发布与授权
 
-GitHub 仓库为 [Stone-dielianhua/ComfyUI_Pose-Gallery_ZH](https://github.com/Stone-dielianhua/ComfyUI_Pose-Gallery_ZH)，包含插件代码及全部内附素材。申请 Comfy Registry 发布时需填写自己的 PublisherId；本版本尚未发布到 Registry。
+GitHub 仓库为 [Stone-dielianhua/ComfyUI_Pose-Gallery_ZH](https://github.com/Stone-dielianhua/ComfyUI_Pose-Gallery_ZH)，包含插件代码及全部内附素材。
+
+已提交 [Manager 收录申请 #3445](https://github.com/Comfy-Org/ComfyUI-Manager/pull/3445)，待维护者合并并刷新列表后，可搜索 `ComfyUI_Pose-Gallery_ZH`、`Pose Gallery` 或 `姿势图库`。本版本尚未发布到 Comfy Registry。
+
+Registry 发布者已配置为 `stone-dielianhua`。维护者需在 [Registry](https://registry.comfy.org/nodes) 为该发布者创建发布密钥，保存至本仓库的 [Actions Secrets](https://github.com/Stone-dielianhua/ComfyUI_Pose-Gallery_ZH/settings/secrets/actions)，名称为 `REGISTRY_ACCESS_TOKEN`，然后在 Actions 中手动运行 `Publish to Comfy Registry`。后续发布前需更新 `pyproject.toml` 中的版本号。密钥不要写入代码或聊天。
 
 保留上游授权范围：**源代码使用 MIT；图片和原始数据不属于 MIT 授权范围，原仓库注明不得用于商业用途**。插件开源不会改变素材的使用限制，详见 [LICENSE](LICENSE)。
 

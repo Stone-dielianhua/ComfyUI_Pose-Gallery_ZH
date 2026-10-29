@@ -9,8 +9,7 @@ license = { text = "MIT (source code only; bundled images and original data have
 [project.urls]
 Repository = "https://github.com/Stone-dielianhua/ComfyUI_Pose-Gallery_ZH"
 
-# Add your own PublisherId after registering at https://registry.comfy.org.
-# GitHub installation does not require a Comfy Registry publisher.
 [tool.comfy]
-DisplayName = "ComfyUI_Pose-Gallery_ZH"
+PublisherId = "stone-dielianhua"
+DisplayName = "ComfyUI_Pose-Gallery_ZH (姿势图库)"
 Icon = ""
