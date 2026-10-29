@@ -131,8 +131,5 @@ GitHub 仓库为 [Stone-dielianhua/ComfyUI_Pose-Gallery_ZH](https://github.com/S
 
 传统 Manager 目录的 [收录申请 #3445](https://github.com/Comfy-Org/ComfyUI-Manager/pull/3445) 仍待维护者合并。
 
-维护者发布新版本时，先更新 `pyproject.toml` 中的版本号，再在 Actions 中手动运行 `Publish to Comfy Registry`。发布密钥保存在仓库的 `REGISTRY_ACCESS_TOKEN` Secret 中，密钥不要写入代码或聊天。
-
 保留上游授权范围：**源代码使用 MIT；图片和原始数据不属于 MIT 授权范围，原仓库注明不得用于商业用途**。插件开源不会改变素材的使用限制，详见 [LICENSE](LICENSE)。
 
-本文件夹是可独立安装和发布的插件项目；原静态站点属于上游项目，历史说明已存档至 [docs/ORIGINAL_README.md](docs/ORIGINAL_README.md)。
