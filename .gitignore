@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 工具产物
+*.part
+download_failed.txt
+verify_failed.txt
+
+# 本地/编辑器
+.workbuddy/
+.idea/
+.vscode/
+node_modules/
+.wrangler/
+.env
+.env.*
+*.log
+
+# 构建产物
+dist/
+
+# Pose Gallery: local configuration and test output
+.pose-gallery.settings.json
+.test-output/
+.pytest_cache/

@@ -1,0 +1,16 @@
+[project]
+name = "ComfyUI_Pose-Gallery_ZH"
+version = "1.0.0"
+description = "Offline Chinese pose reference gallery for ComfyUI, with bundled assets and batch image nodes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT (source code only; bundled images and original data have separate terms — see LICENSE)" }
+
+[project.urls]
+Repository = "https://github.com/Stone-dielianhua/ComfyUI_Pose-Gallery_ZH"
+
+# Add your own PublisherId after registering at https://registry.comfy.org.
+# GitHub installation does not require a Comfy Registry publisher.
+[tool.comfy]
+DisplayName = "ComfyUI_Pose-Gallery_ZH"
+Icon = ""

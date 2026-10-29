@@ -1,0 +1,13 @@
+{
+  "name": "comfyui-pose-gallery-zh",
+  "displayName": "ComfyUI_Pose-Gallery_ZH",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/frontend.test.mjs",
+    "test:browser": "node tests/browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

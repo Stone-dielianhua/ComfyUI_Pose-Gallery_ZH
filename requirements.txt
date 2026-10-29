@@ -1,0 +1,2 @@
+# Uses the Pillow, NumPy, PyTorch and aiohttp already installed with ComfyUI.
+# No inference models or additional dependencies are needed for the gallery.

@@ -1,0 +1,207 @@
+{
+  "id": "fb46b89d-08bf-43c0-b5af-1a31cecb706c",
+  "revision": 0,
+  "last_node_id": 2,
+  "last_link_id": 1,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PoseGalleryBatch",
+      "pos": [
+        60,
+        80
+      ],
+      "size": [
+        400,
+        508
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "pose_ids",
+          "name": "pose_ids",
+          "type": "STRING",
+          "widget": {
+            "name": "pose_ids"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "selection_mode",
+          "name": "selection_mode",
+          "type": "COMBO",
+          "widget": {
+            "name": "selection_mode"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "pose_id",
+          "name": "pose_id",
+          "type": "STRING",
+          "widget": {
+            "name": "pose_id"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "order",
+          "name": "order",
+          "type": "COMBO",
+          "widget": {
+            "name": "order"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "asset_source",
+          "name": "asset_source",
+          "type": "COMBO",
+          "widget": {
+            "name": "asset_source"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "resize_mode",
+          "name": "resize_mode",
+          "type": "COMBO",
+          "widget": {
+            "name": "resize_mode"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "width",
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "height",
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "flip_horizontal",
+          "name": "flip_horizontal",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "flip_horizontal"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "图片批次",
+          "name": "图片批次",
+          "type": "IMAGE",
+          "links": [
+            1
+          ]
+        },
+        {
+          "localized_name": "信息清单JSON",
+          "name": "信息清单JSON",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PoseGalleryBatch"
+      },
+      "widgets_values": [
+        "full_single_P001_front",
+        "当前姿势全部角度",
+        "full_single_P001_front",
+        "选择顺序",
+        "内置素材库",
+        "等比留边",
+        768,
+        1024,
+        false,
+        null,
+        ""
+      ],
+      "widgets_values_named": {
+        "pose_ids": "full_single_P001_front",
+        "selection_mode": "当前姿势全部角度",
+        "pose_id": "full_single_P001_front",
+        "order": "选择顺序",
+        "asset_source": "内置素材库",
+        "resize_mode": "等比留边",
+        "width": 768,
+        "height": 1024,
+        "flip_horizontal": false,
+        "打开姿势图库": null,
+        "pose_gallery_preview": ""
+      }
+    },
+    {
+      "id": 2,
+      "type": "PreviewImage",
+      "pos": [
+        550,
+        80
+      ],
+      "size": [
+        140,
+        26
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        30,
+        30
+      ]
+    }
+  },
+  "version": 0.4
+}
